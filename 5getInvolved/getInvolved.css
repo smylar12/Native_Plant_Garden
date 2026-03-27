@@ -1,0 +1,89 @@
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+    background-color: cadetblue;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    color: #e9ecef;
+}
+h3{
+    text-align: center;
+    color: #e9ecef;
+    font-weight: normal;
+}
+h2{
+    text-align: center;
+    color: #e9ecef;
+}
+img{
+    max-width: 700px;
+   height: auto;
+    border: solid 2px;
+    border-color:#000
+ }
+.April-image{
+display:block;
+margin:0 auto;
+}
+.prev-image {
+  display: flex;
+  flex-direction: row;
+  max-height: 500px;
+  flex-wrap: wrap; /* optional, for multiple rows */
+}
+.prev-image img {
+  flex: 1;
+  max-width: 32%;
+  border-radius: 2px;
+border: solid 2px;
+padding: 3px;
+border-color:#000;
+}
+/* footer */
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+/* navigation bar */
+
+nav{
+flex:1;
+text-align:right;
+}
+nav ul li{
+  list-style: none;
+  display:inline-block;
+  margin-right: 30px;
+  text-decoration-color: #000;
+}
+nav ul li a{
+  text-decoration:none;
+  color:#000;
+  font-size:14px;
+}
+nav ul li a:hover{
+  color:#cb791b;
+}
+.footer {
+  background: #111;
+  color: #888;
+  text-align: center;
+}
+.footer a {
+  color: #ddd;
+}
+.footer {
+  background: #111;
+  color: #888;
+  text-align: center;
+}
+.footer a {
+  color: #ddd;
+}
